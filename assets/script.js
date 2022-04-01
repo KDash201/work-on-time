@@ -31,6 +31,7 @@ function usePlanner() {
   $(".hour").each(function () {
     var currentHour = $(this).text();
     var currentPlan = localStorage.getItem(currentHour);
+    console.log(currentPlan);
 
     if (currentPlan !== null) {
       $(this).siblings(".plan").val(currentPlan);
