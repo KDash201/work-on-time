@@ -9,7 +9,6 @@
 ## Table of Contents
 
 - [Installation] (#Installation)
-- [Usage](#Usage)
 
 ## Installation
 
